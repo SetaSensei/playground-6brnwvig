@@ -6,8 +6,8 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Gherkin
     statement: markdowns/gherkin.md
-  - title: Triple A
-    statement: markdowns/triple-a.md
+  - title: Anexes
+    statement: markdowns/annexes.md
 
 
 # Settings for your programming projects and the associated Docker images

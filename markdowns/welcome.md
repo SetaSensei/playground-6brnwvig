@@ -26,8 +26,6 @@ In order to work, `Cucumber` and `Specflow` both rely on `Gherkin`.
 * Implement the code that will validate the test
 * Ensure the test is not failing anymore
 
-This can be summed up as [Triple A](annexes.md) (i.e. Arrange - Act - Assert).
-
 The team should thrive to define the expected behaviours of their system before developing them.
 
 As we are talking team-wise, we need to describes a behaviour in a language that any human can understand.

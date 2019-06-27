@@ -2,13 +2,19 @@
 
 ## What is Gherkin
 
-Gherkin is a language.
+`Gherkin` is a language.
 
 >Language, a system of conventional spoken, manual, or written symbols by means of which human beings, as members of a social group and participants in its culture, express themselves.
 >
 > -- Encyclopaedia Britannica
 
-Gherkin uses a system of conventions in order to have business, QA and developers express and understand themselves.
+`Gherkin` uses a system of conventions in order to have business, QA, developers and any person -be it technical or not- involved in a product express and understand themselves.
+
+> Where does Cucumber fits in ?
+>
+> -- _Still the same person_
+
+`Gherkin` is a [ubiquitous language](annexes.md#ubiquitous-language) used by `Cucumber` in order to apply the Behaviour Driven Development process within a software team.
 
 ## What Gherkin looks like
 
@@ -17,7 +23,7 @@ Feature [What is expected from my system on a business point of view]
 
 Scenario [What will be tested next]
     Given [an initial state of my system]
-    When [an event iccurs in my system]
+    When [a single event occurs in my system]
     Then [My system should have the corresponding state]
 ```
 
@@ -32,3 +38,4 @@ Scenario Refunded items are added back to stock
     When a clercks register the refund for the red cap
     Then the stock of red cap is updated to 11
 ```
+

@@ -6,7 +6,7 @@
 >
 >-- _Wikipedia_
 
-`BDD` inhjerits from the `Test Driven Developement` process :
+`BDD` inherits from the `Test Driven Developement` process :
 
 * Define what the tests should verify
 * Ensure the test is failing

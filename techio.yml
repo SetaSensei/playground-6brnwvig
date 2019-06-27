@@ -2,10 +2,12 @@ title : What is Behaviour Driven Developement ?
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
+  - title: Behaviour Driven Developement # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Gherkin
+    statement: markdowns/gherkin.md
+  - title: Triple A
+    statement: markdowns/triple-a.md
 
 
 # Settings for your programming projects and the associated Docker images

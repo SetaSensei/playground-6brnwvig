@@ -6,6 +6,9 @@
 >
 >-- _Wikipedia_
 
+
+> So, it's Cucumber, right ?
+
 ---
 
 ## BDD is not only Cucumber

@@ -19,7 +19,7 @@ As we are talking team-wise, we need to describes a behaviour in a language that
 
 > So, it's Cucumber, right ?
 >
->-- _Someone we all know_ 
+>-- _Someone, maybe you_ 
 ---
 
 ## BDD is not only Cucumber

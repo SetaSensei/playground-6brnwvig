@@ -26,7 +26,7 @@ In order to work, `Cucumber` and `Specflow` both rely on `Gherkin`.
 * Implement the code that will validate the test
 * Ensure the test is not failing anymore
 
-This can be summed up as [Triple A](triple-a.md) (i.e. Arrange - Act - Assert).
+This can be summed up as [Triple A](annexes.md) (i.e. Arrange - Act - Assert).
 
 The team should thrive to define the expected behaviours of their system before developing them.
 
@@ -40,6 +40,3 @@ As we are talking team-wise, we need to describes a behaviour in a language that
 
 Gherkin is a ubiquitous language used by Cucumber in order to apply the Behaviour Driven Development process within a software team.
 
----
-
-Next step : [Gherkin](gherkin.md)

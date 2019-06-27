@@ -4,6 +4,8 @@ plan:
   statement: markdowns/welcome.md
 - title: Gherkin
   statement: markdowns/gherkin.md
+- title: Gherkin How to
+  statement: markdowns/gherkin-howto.md
 - title: Annexes
   statement: markdowns/annexes.md
 projects:

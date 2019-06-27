@@ -29,11 +29,3 @@ You may have heard of `Specflow` for .net.
 
 In order to work, `Cucumber` and `Specflow` both rely on `Gherkin`.
 
----
-
-## BDD is not only Gherkin
-
-
-
-Gherkin is a ubiquitous language used by Cucumber in order to apply the Behaviour Driven Development process within a software team.
-

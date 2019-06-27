@@ -1,21 +1,14 @@
-title : What is Behaviour Driven Developement ?
-
-# Table of content
+title: What is Behaviour Driven Developement ?
 plan:
-  - title: Behaviour Driven Developement # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-  - title: Gherkin
-    statement: markdowns/gherkin.md
-  - title: Anexes
-    statement: markdowns/annexes.md
-
-
-# Settings for your programming projects and the associated Docker images
+- title: Behaviour Driven Developement
+  statement: markdowns/welcome.md
+- title: Gherkin
+  statement: markdowns/gherkin.md
+- title: Annexes
+  statement: markdowns/annexes.md
 projects:
   java:
-    root: /java-project # Set the root path to your Java project
-
-    # Set the docker image. This image runs JUnit tests using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.java", "EditorFile2.java", ...], "command": "MyJUnitClass#myMethod"})
-    # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
-    runner: techio/java-maven3-junit4-runner:1.1.3-java-8
+    root: /java-project
+    runner:
+      name: techio/java-maven3-junit4-runner
+      version: 1.1.3-java-8

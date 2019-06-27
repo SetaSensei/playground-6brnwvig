@@ -39,3 +39,21 @@ Scenario Refunded items are added back to stock
     Then the stock of red cap is updated to 11
 ```
 
+### Feature
+
+Represents the value that is to be added by the developement.
+It can be directly linked to the user story.
+
+### Scenario
+
+Gives precisions on what needs to be tested.
+There is usually more than one scenario per feature.
+
+### Given - When - Then
+
+Following the [Triple A](annexes.md#triple-a) rule, gives the step by step actions to ensure the scenario is developed.
+
+If `Given` or `Then` recquire more than one step, one is allowed to use `And` to add sequential following steps.
+
+`Then` should not have `And` as each scenario should only check one single event triggering a change. Actions can be defined in the `Given` phase to set the system in the correct state.
+
